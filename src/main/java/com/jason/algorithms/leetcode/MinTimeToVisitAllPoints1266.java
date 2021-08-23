@@ -1,4 +1,4 @@
-package com.jason.algorithms.array;
+package com.jason.algorithms.leetcode;
 
 /*
 leetcode 1266
@@ -16,8 +16,11 @@ leetcode 1266
 从 [1,1] 到 [3,4] 需要 3 秒
 从 [3,4] 到 [-1,0] 需要 4 秒
 一共需要 7 秒
+
+ *  @author JasonMei
+ *  @date 2021-05-19
 */
-public class MinTimeToVisitAllPoints {
+public class MinTimeToVisitAllPoints1266 {
 
     /**
      * 主要考虑相邻两点之间，求取x轴距离和y轴距离的最大绝对值即可

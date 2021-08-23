@@ -1,4 +1,4 @@
-package com.jason.algorithms.middle;
+package com.jason.algorithms.leetcode;
 
 import java.util.Stack;
 
@@ -10,8 +10,11 @@ import java.util.Stack;
  * 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
  * 输出：7 -> 0 -> 8
  * 原因：342 + 465 = 807
+ *
+ * @author JasonMei
+ * @date 2021-05-19
  */
-public class AddTwoNumbers {
+public class AddTwoNumbers2 {
 
     public static void main(String[] args) {
         ListNode listNode1 = initListNode(2,4,3,2,4,7,1,4,1,9,7,8,3,5,1,7,8,2,7,2,6,8,9,1,5,7,8);
@@ -29,8 +32,12 @@ public class AddTwoNumbers {
      * ListNode元素以逆序方式存储
      */
     public static ListNode method1(ListNode listNode1, ListNode listNode2){
-        if(listNode1 == null) return listNode2;
-        if(listNode2 == null) return listNode1;
+        if(listNode1 == null){
+            return listNode2;
+        }
+        if(listNode2 == null){
+            return listNode1;
+        }
         ListNode dummyListNode = new ListNode(0);
         ListNode currentListNode = dummyListNode;
         int carryFlag = 0;
@@ -55,8 +62,12 @@ public class AddTwoNumbers {
      * ListNode元素以顺序方式存储
      */
     public static ListNode method2(ListNode listNode1, ListNode listNode2){
-        if(listNode1 == null) return listNode2;
-        if(listNode2 == null) return listNode1;
+        if(listNode1 == null){
+            return listNode2;
+        }
+        if(listNode2 == null){
+            return listNode1;
+        }
 
         Stack<Integer> stack = new Stack<>();
 
@@ -85,7 +96,9 @@ public class AddTwoNumbers {
 
     public static void pushStack(ListNode listNode, Stack<Integer> stack){
         stack.push(listNode.val);
-        if(listNode.next != null) pushStack(listNode.next, stack);
+        if(listNode.next != null) {
+            pushStack(listNode.next, stack);
+        }
     }
 
     public static ListNode stack2ListNode(Stack<Integer> stack){

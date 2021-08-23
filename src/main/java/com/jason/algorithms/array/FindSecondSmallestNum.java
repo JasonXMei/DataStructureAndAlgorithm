@@ -1,9 +1,10 @@
 package com.jason.algorithms.array;
 
-import com.jason.algorithms.ArrayUtil;
-
 /**
- * 找到数组中第二小的元素
+ *  找到数组中第二小的元素
+ *
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
 public class FindSecondSmallestNum {
 

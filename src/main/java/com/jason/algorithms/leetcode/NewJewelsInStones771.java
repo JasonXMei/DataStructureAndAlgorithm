@@ -1,4 +1,4 @@
-package com.jason.algorithms.simple;
+package com.jason.algorithms.leetcode;
 
 
 import java.util.HashMap;
@@ -19,8 +19,10 @@ import java.util.Map;
  * 注意:
  * S 和 J 最多含有50个字母。
  * J 中的字符不重复。
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
-public class NewJewelsInStones {
+public class NewJewelsInStones771 {
     public static void main(String[] args) {
         String J = "aA";
         String S = "aAAbbbb";

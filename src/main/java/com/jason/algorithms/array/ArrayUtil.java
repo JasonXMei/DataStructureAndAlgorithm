@@ -1,9 +1,10 @@
-package com.jason.algorithms;
+package com.jason.algorithms.array;
 
 import java.util.Random;
 
 /**
- * Created by abo on 2019/8/15.
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
 public class ArrayUtil {
 

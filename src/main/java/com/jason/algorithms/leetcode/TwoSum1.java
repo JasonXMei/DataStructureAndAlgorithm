@@ -1,4 +1,4 @@
-package com.jason.algorithms.simple;
+package com.jason.algorithms.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,8 +6,10 @@ import java.util.Map;
 /**
  * 给定一个整数数组 nums和一个目标值target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
  * 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
-public class TwoSum {
+public class TwoSum1 {
 
     public static void main(String[] args) {
         int[] arr = {2, 11, 7, 15};

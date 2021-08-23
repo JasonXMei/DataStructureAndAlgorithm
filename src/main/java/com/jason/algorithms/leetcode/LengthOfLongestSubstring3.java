@@ -1,4 +1,4 @@
-package com.jason.algorithms.middle;
+package com.jason.algorithms.leetcode;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,9 +6,12 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。
+ *  给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。
+ *
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
-public class LengthOfLongestSubstring {
+public class LengthOfLongestSubstring3 {
     public static void main(String[] args) {
         String str = "pwwkew";
         System.out.println(method1(str));

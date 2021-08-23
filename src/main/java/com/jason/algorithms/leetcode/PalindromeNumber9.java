@@ -1,9 +1,11 @@
-package com.jason.algorithms.simple;
+package com.jason.algorithms.leetcode;
 
 /**
- * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数
+ *  判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数
+ *  @author JasonMei
+ *  @date 2021-05-19
  */
-public class PalindromeNumber {
+public class PalindromeNumber9 {
 
     public static void main(String[] args) {
         int i = 1221;
